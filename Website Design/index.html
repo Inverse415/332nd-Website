@@ -1,9 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <!-- This is the link to the CSS Design Sheet -->
-    <head> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
         <title>332nd Legion</title> 
-        <link href='./Website Design.css' rel='stylesheet'>
+        <meta name="description" content="Welcome to the 332nd Legion!" />
+        <meta name="Author" content="332nd Website Team" />
+
+        <!-- mobile settings to help with optimization of site-->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"/> 
+
+        <!-- CORE CSS -->
+        <link href='assets/css/websiteDesign.css' rel='stylesheet'>
+        <!-- Footer CSS -->
+        <link href='assets/css/footer.css' rel='stylesheet'>
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <nav> <!-- This is the web bar at the top of the page (above image)-->
@@ -26,7 +38,7 @@
                     <a href="Gravedigger.html">Gravedigger</a>
                 </div>
             </div>
-            <img src="Website Photos/Spinny_thingy_-_Copy.png" width="70" height="70">
+            <img src="assets/images/Spinny_thingy_-_Copy.png" width="70" height="70">
             <div id="Header" class="dropdown">
                 <button class="dropdown-button">Operation Center
                     <i class="fa fa-caret-down"></i>
@@ -52,11 +64,12 @@
         </div>
         <!-- Below is the 5 hr hatered of my life on Covid, the grid box for the positions. Please don't break it. I wiil Cry. Inverse-->
         <h2>Choose a Playstyle</h2> 
+        <!-- TODO: Make these images the same size or similar -->
         <div id="Chooseaunit" class="grid-box">
             <div class="column">
                 <div class="grid-item">
                     <a href="Torrent.html" class="container">
-                    <img src="Website Photos/Torrent-Logo.png">
+                    <img src="assets/images/Torrent-Logo.png">
                         <div class="text-block">
                             <h4>Torrent Ground Forces</h4>
                         </div>
@@ -64,7 +77,7 @@
                 </div>
                 <div class="grid-item">
                     <a href="Seraph.html" class="container">
-                    <img src="Website Photos/Seraph-logo.png"> 
+                    <img src="assets/images/Seraph-logo.png"> 
                         <div class="text-block">
                             <h4>Seraph Airborne Forces</h4>
                         </div>
@@ -72,7 +85,7 @@
                 </div>
                 <div class="grid-item">
                     <a href="Banshee.html" class="container">
-                    <img src="Website Photos/Banshee-logo.png">
+                    <img src="assets/images/Banshee-logo.png">
                         <div class="text-block">
                             <h4>Banshee Recon Forces</h4>
                         </div>
@@ -82,7 +95,7 @@
             <div class="column">
                 <div class="grid-item">
                     <a href="Aegis.html" class="container">
-                    <img src="Website Photos/Tank Drop.jpg">
+                    <img src="assets/images/Tank Drop.jpg">
                         <div class="text-block">
                             <h4>Aegis Armor Forces</h4>
                         </div>
@@ -90,7 +103,7 @@
                 </div>
                 <div class="grid-item">
                     <a href="Reaper.html" class="container">
-                    <img src="Website Photos/Reaper-logo.png">
+                    <img src="assets/images/Reaper-logo.png">
                         <div class="text-block">
                             <h4>Reaper Air Forces</h4>
                         </div>
@@ -98,7 +111,7 @@
                 </div>
                 <div class="grid-item">
                     <a href="Gravedigger.html" class="container">
-                    <img src="Website Photos/Gravedigger-logo.png">
+                    <img src="assets/images/Gravedigger-logo.png">
                         <div class="text-block">
                             <h4>Gravedigger</h4>
                         </div>
@@ -107,12 +120,12 @@
             </div>
         </div>
         <div class="footer">
-            <ol class="footer-text">
-                <ul>Find Us On:</ul>
-                <ul>Instagram: <a href="https://www.instagram.com/332ndlegion/">https://www.instagram.com/332ndlegion/</a></ul>
-                <ul>Twitter: <a href="https://twitter.com/332ndlegion">https://twitter.com/332ndlegion</a></ul>
-                <ul>YouTube: <a href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA">https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA</a></ul>
-            </ol>
+            <p class="footer-text">
+                <p>Find Us On:</p>
+                <!-- Added font awesome icons -->
+                <a href="https://www.instagram.com/332ndlegion/" class="fa fa-instagram fa-footer"></a>
+                <a href="https://twitter.com/332ndlegion" class="fa fa-twitter fa-footer"></a>
+                <a href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA" class="fa fa-youtube fa-footer"></a>
             </p>
         </div>
     </body>
