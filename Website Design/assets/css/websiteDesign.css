@@ -181,6 +181,16 @@ p > a:hover {
   background-size: cover;
 }
 
+#Introduction {
+  margin: auto;
+  padding: 1em 2em 1em 2em;
+}
+
+#IntroHeader {
+  margin: auto;
+  padding: 1em 2em 1em 2em;
+}
+
 /*This is the Detachments part of the Main Page*/
 .container {
   position: relative;
@@ -555,7 +565,7 @@ img:nth-child(6) {
 .recruitment-image {
   width: 100%;
   height: 600px;
-  background-image: url(./Website\ Photos/Recruitment-photo.jpg);
+  background-image: url(../images/Recruitment-photo.jpg);
   background-size: cover;
 }
 
