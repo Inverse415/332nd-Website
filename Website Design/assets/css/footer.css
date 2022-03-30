@@ -35,3 +35,8 @@
   background: red;
   color: white;
 }
+
+/* Divider */
+.divider {
+  padding-top: 1em;
+}
