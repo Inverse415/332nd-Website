@@ -1,93 +1,304 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>332nd Legion</title> 
-        <meta name="description" content="Welcome to the 332nd Legion!" />
-        <meta name="Author" content="332nd Website Team" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="332nd Legion Website" />
+    <meta name="author" content="332nd Website Team" />
+    <title>332nd Legion</title>
 
-        <!-- mobile settings to help with optimization of site-->
-        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"/> 
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- CORE CSS -->
-        <link href='assets/css/websiteDesign.css' rel='stylesheet'>
-        <!-- Footer CSS -->
-        <link href='assets/css/footer.css' rel='stylesheet'>
+    <!-- Custom styles for any personal styling made -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
 
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <nav> <!-- This is the web bar at the top of the page (above image)-->
-            <div id="Header" class="dropdown">
-                <a class="dropdown-button" href="index.html" role="button">Home</a>
-            </div>
-            <div id="Header" class="dropdown">
-                <a class="dropdown-button" href="Leadership.html" role="button">Leadership</a>
-            </div>
-            <div id="Header" class="dropdown">
-                <button class="dropdown-button">Detachments
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="Torrent.html">Torrent</a>
-                    <a href="Seraph.html">Seraph</a>
-                    <a href="Banshee.html">Banshee</a>
-                    <a href="Aegis.html">Aegis</a>
-                    <a href="Reaper.html">Reaper</a>
-                    <a href="Gravedigger.html">Gravedigger</a>
-                </div>
-            </div>
-            <img src="assets/images/Spinny_thingy_-_Copy.png" width="70" height="70">
-            <div id="Header" class="dropdown">
-                <button class="dropdown-button">Operation Center
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="Campaigns.html">Campaigns</a>
-                    <a href="C-shop.html">C-Shop</a>
-                    <a href="Media.html">Media</a>
-                </div>
-            </div>
-            <div id="Header" class="dropdown">
-                <a class="dropdown-button" href="Join Us.html" role="button">How to Join</a>
-            </div>
-        </nav>
-        <div class="campaign-image"></div>
-        
-        <div>
-            <p class="Campaign-title">
-                332nd Campaigns
-            </p>
-            <p class="Campaign-text">
-                In the 332nd, we schedule our campaigns tentatively on a 4-week-on/4-week-off schedule. We will have 4 weeks of missions that are campaign related on a single map, then take 4 weeks off to complete other missions before returning to the campaign on a new map. In campaigns, every decision, death, and kill matters and can change the outcome of the whole story. Below is a recap of the first 3 weeks of the first leg of our most recent campaign. 
-            </p>
-            <p class="Campaign-title-ex">
-                Crashed on Geonosis
-            </p>
-            <p class="Campaign-text-ex">
-                In week one, both platoons desperately clang onto life as hordes of battle droids came crashing down on their respective crash sites. On Day 1, 1st Platoon killed over 5,000 droids with Reaper taking out multiple Armored Convoys. Several known Armor Depots were destroyed by ground and air forces; however, it was suspected that there may still be some that remain. Suicidal Vulture droids also played a huge part in causing terror for not only ground forces as they came crashing down, but Reaper as well. 2nd platoon’s first op was a defense of their crash site and was an uphill battle the entire way. They killed over 8,850 battle droids with the final kill count being over 13,000 battle droids’ total. 28% of the planet's AATs was destroyed. While the platoon took a lot of contact from armor, ground forces, and B2s that para-dropped on top of them, they managed to hold their position. 
-                Week two encompassed ground forces beginning the push outward away from their respective crash sites and toward different Objectives and POIs scattered around the AO. Multiple POIs and Trenches were captured, recon gathered intel on our next POI. There were few casualties on the ground, despite everyone being spread thin. Reaper had a huge dogfight in the sky, with almost constant red air and heavy vulture presence throughout the entire duration of the operation. Week three lead to a hard push for the final objectives, including the huge indoor droid factory. 332nd Clones overtook multiple POIs, ground FOBs, and destroyed the droid factory before leaving the planet and heading off to their next leg of the campaign. 
-            </p>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Leadership.html">Leadership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Detachments</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Torrent.html">Torrent</a>
+                </li>
+                <li><a class="dropdown-item" href="Seraph.html">Seraph</a></li>
+                <li>
+                  <a class="dropdown-item" href="Banshee.html">Banshee</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Aegis.html">Aegis</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Reaper.html">Reaper</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Gravedigger.html"
+                    >Gravedigger</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <img
+              src="assets/images/Spinny_thingy_-_Copy.png"
+              width="70"
+              height="70"
+            />
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Operations Center</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Campaigns.html">Campaigns</a>
+                </li>
+                <li><a class="dropdown-item" href="C-shop.html">C-Shop</a></li>
+                <li>
+                  <a class="dropdown-item" href="Media.html">Media</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Join Us.html">How to Join</a>
+            </li>
+          </ul>
         </div>
-        <div class="Picture-carousel">
-            <div class="pic-ctn">
-                <img src="./assets/images/Campaign-1.jpg" alt="" class="pic">
-                <img src="./assets/images/Campaign-2.jpg" alt="" class="pic">
-                <img src="./assets/images/Campaign-3.jpg" alt="" class="pic">
-                <img src="./assets/images/Campaign-4.jpg" alt="" class="pic">
-                <img src="./assets/images/Campaign-5.jpg" alt="" class="pic">
-                <img src="./assets/images/Campaign-6.jpg" alt="" class="pic">
-            </div>
+      </div>
+    </nav>
+    <br />
+
+    <!-- Carousel -->
+    <div class="container">
+      <div
+        id="demo"
+        class="carousel slide"
+        style="max-width: 1080px; max-height: 720px; margin: 0 auto"
+      >
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="5"
+          ></button>
         </div>
-        <div class="footer">
-            <p class="footer-text">
-                <p>Find Us On:</p>
-                <!-- Added font awesome icons -->
-                <a href="https://www.instagram.com/332ndlegion/" class="fa fa-instagram fa-footer"></a>
-                <a href="https://twitter.com/332ndlegion" class="fa fa-twitter fa-footer"></a>
-                <a href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA" class="fa fa-youtube fa-footer"></a>
-            </p>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/Campaign-1.jpg"
+              alt="Los Angeles"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/Campaign-2.jpg"
+              alt="Chicago"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/Campaign-3.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/Campaign-4.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/Campaign-5.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/Campaign-6.jpg"
+              alt="New York"
+              class="d-block"
+              style="width: 100%"
+            />
+          </div>
         </div>
-    </body>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <br />
+
+    <div class="container text-white text-center">
+      <h1>332nd Campaigns</h1>
+      <p>
+        In the 332nd, we schedule our campaigns tentatively on a
+        4-week-on/4-week-off schedule. We will have 4 weeks of missions that are
+        campaign related on a single map, then take 4 weeks off to complete
+        other missions before returning to the campaign on a new map. In
+        campaigns, every decision, death, and kill matters and can change the
+        outcome of the whole story. Below is a recap of the first 3 weeks of the
+        first leg of our most recent campaign.
+      </p>
+      <h2>Crashed on Geonosis</h2>
+      <p>
+        In week one, both platoons desperately clang onto life as hordes of
+        battle droids came crashing down on their respective crash sites. On Day
+        1, 1st Platoon killed over 5,000 droids with Reaper taking out multiple
+        Armored Convoys. Several known Armor Depots were destroyed by ground and
+        air forces; however, it was suspected that there may still be some that
+        remain. Suicidal Vulture droids also played a huge part in causing
+        terror for not only ground forces as they came crashing down, but Reaper
+        as well. 2nd platoon’s first op was a defense of their crash site and
+        was an uphill battle the entire way. They killed over 8,850 battle
+        droids with the final kill count being over 13,000 battle droids’ total.
+        28% of the planet's AATs was destroyed. While the platoon took a lot of
+        contact from armor, ground forces, and B2s that para-dropped on top of
+        them, they managed to hold their position. Week two encompassed ground
+        forces beginning the push outward away from their respective crash sites
+        and toward different Objectives and POIs scattered around the AO.
+        Multiple POIs and Trenches were captured, recon gathered intel on our
+        next POI. There were few casualties on the ground, despite everyone
+        being spread thin. Reaper had a huge dogfight in the sky, with almost
+        constant red air and heavy vulture presence throughout the entire
+        duration of the operation. Week three lead to a hard push for the final
+        objectives, including the huge indoor droid factory. 332nd Clones
+        overtook multiple POIs, ground FOBs, and destroyed the droid factory
+        before leaving the planet and heading off to their next leg of the
+        campaign.
+      </p>
+    </div>
+
+    <br />
+
+    <footer class="fixed bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com/332ndlegion"
+            role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.instagram.com/332ndlegion/"
+            role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <!-- Discord -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://discord.com/invite/PMNEbfvMx4"
+            role="button"
+            ><i class="bi bi-discord"></i
+          ></a>
+
+          <!-- Youtube -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA"
+            role="button"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </section>
+      </div>
+      <!-- Grid container -->
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        332nd Legion
+      </div>
+    </footer>
+  </body>
 </html>

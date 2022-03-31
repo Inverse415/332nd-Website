@@ -4,12 +4,11 @@ body {
 .orange {
   color: orangered;
 }
-h1,
+/* h1,
 h2 {
   margin: auto;
   padding: 1em 2em 1em 2em;
 }
 nav {
   font-size: 30px;
-  text-align: center;
-}
+} */
