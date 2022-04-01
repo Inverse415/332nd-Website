@@ -1,0 +1,777 @@
+/*This is items that effect the entire webpage*/
+
+/* Nav bar */
+nav {
+  font-size: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+nav a {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.dropdown-button {
+  font-size: inherit;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orangered;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-button:hover {
+  color: orangered;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: black;
+}
+
+nav > a:link {
+  color: white;
+}
+
+nav > a:visited {
+  color: white;
+}
+
+nav > a:active {
+  color: white;
+}
+
+nav > a:hover {
+  color: orangered;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Background*/
+body {
+  background-color: black;
+  text-decoration-color: orangered;
+}
+
+/*Text*/
+p {
+  color: white;
+  size: 30px;
+}
+
+h1 {
+  color: white;
+  size: 50px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  size: 50px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  size: 30px;
+  text-align: center;
+}
+
+ol {
+  color: white;
+  size: 30px;
+}
+
+/*Footer */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 90%;
+  position: relative;
+  text-align: center;
+  margin-top: auto;
+  background-color: gray;
+  float: left;
+  clear: both;
+  display: block;
+}
+
+.footer-text {
+  font-size: 15px;
+  width: 96%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+ul > a:link {
+  color: white;
+}
+
+ul > a:visited {
+  color: white;
+}
+
+ul > a:active {
+  color: white;
+}
+
+ul > a:hover {
+  color: white;
+}
+
+p > a:link {
+  color: white;
+}
+
+p > a:visited {
+  color: white;
+}
+
+p > a:active {
+  color: white;
+}
+
+p > a:hover {
+  color: white;
+}
+
+/* This is the Main page of the website */
+.header-image {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Nice.png);
+  background-size: cover;
+}
+
+#Introduction {
+  margin: auto;
+  padding: 1em 2em 1em 2em;
+}
+
+#IntroHeader {
+  margin: auto;
+  padding: 1em 2em 1em 2em;
+}
+
+/*This is the Detachments part of the Main Page*/
+.container {
+  position: relative;
+}
+
+.text-block {
+  background-color: black;
+  color: orangered;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  opacity: 80%;
+}
+
+.column {
+  width: 40%;
+  padding: 2%;
+  float: left;
+}
+
+.grid-item > a > img {
+  width: 100%;
+  padding: 15px;
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+.grid-box {
+  width: 100%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.grid-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*This is the Torrent Page of the Website */
+.header-image-torrent {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Torrent.png);
+  background-size: cover;
+}
+
+.torrent-header {
+  font-size: 35px;
+}
+
+.torrent-description {
+  font-size: 20px;
+}
+
+.Torrent-body-image {
+  display: inline-block;
+  position: relative;
+  min-width: 500px;
+  max-width: 45%;
+  min-height: 350px;
+  max-height: 45%;
+  padding: 2%;
+}
+
+.torrent-text {
+  display: inline-block;
+  min-width: 400px;
+  max-width: 45%;
+  min-height: 300px;
+  max-height: 45%;
+  padding: 2%;
+  white-space: initial;
+}
+
+.Torrent-positions {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+.Torrent-positions-title {
+  color: black;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.torrent-container {
+  float: left;
+  height: auto;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "header header header header header header"
+    "trooper trooper medic medic jtac jtac"
+    "team team team squad squad squad"
+    "mos mos mos mos mos mos";
+  row-gap: 5px;
+  column-gap: 5px;
+  position: relative;
+}
+
+.torrent-cell-text {
+  color: black;
+  font-size: 17px;
+}
+
+.torrent-cell-text-2 {
+  color: black;
+  font-size: 17px;
+  text-align: center;
+}
+
+.torrent-cell-title {
+  color: black;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.torrent-cell {
+  background-color: gray;
+  padding: 10px;
+  opacity: 90%;
+}
+
+.torrent-cell-1 {
+  grid-area: header;
+}
+
+.torrent-cell-2 {
+  grid-area: trooper;
+}
+
+.torrent-cell-3 {
+  grid-area: medic;
+}
+
+.torrent-cell-4 {
+  grid-area: jtac;
+}
+
+.torrent-cell-5 {
+  grid-area: team;
+}
+
+.torrent-cell-6 {
+  grid-area: squad;
+}
+
+.torrent-cell-7 {
+  grid-area: mos;
+}
+
+.Pictures {
+  float: left;
+  clear: both;
+  display: block;
+}
+
+.torrent-picture-1 {
+  float: left;
+  width: 49%;
+  height: 40%;
+  padding-left: 2.5%;
+  padding-bottom: 1%;
+}
+
+.torrent-picture-2 {
+  width: 49%;
+  height: 40%;
+  padding-right: 2.5%;
+  padding-bottom: 1%;
+  float: right;
+}
+
+.torrent-picture-3 {
+  float: left;
+  width: 49%;
+  height: 40%;
+  padding-left: 2.5%;
+  padding-bottom: 1%;
+}
+
+.torrent-picture-4 {
+  float: right;
+  width: 49%;
+  height: 135%;
+  padding-right: 2.5%;
+  padding-bottom: 1%;
+}
+
+.torrent-picture-5 {
+  float: left;
+  width: 49%;
+  height: 40%;
+  padding-left: 2.5%;
+  padding-bottom: 1%;
+}
+
+/* Campaigns Page */
+.campaign-image {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Campaign-map.jpg);
+  background-size: cover;
+}
+
+.Campaign-title {
+  font-size: 40px;
+  color: orangered;
+  text-align: center;
+}
+
+.Campaign-text {
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+}
+
+.Campaign-title-ex {
+  font-size: 30px;
+  color: orangered;
+  text-align: center;
+}
+
+.Campaign-text-ex {
+  font-size: 20px;
+  color: gray;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  height: 500px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  align-items: center;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+.pic {
+  width: 100%;
+}
+
+.Picture-carousel {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+img:nth-child(6) {
+  animation-delay: 8s;
+}
+
+/* Media Page */
+
+.media-title {
+  font-size: 40px;
+  color: orangered;
+  text-align: center;
+  margin: 5px;
+}
+
+.media-text {
+  font-size: 30px;
+  color: gray;
+  margin: 5px;
+}
+
+.news {
+  color: gray;
+  font-size: 25px;
+}
+
+.media-text > a:link {
+  color: white;
+}
+
+.media-text > a:visited {
+  color: white;
+}
+
+.media-text > a:active {
+  color: white;
+}
+
+.media-text > a:hover {
+  color: orangered;
+}
+
+.news > a:link {
+  color: white;
+}
+
+.news > a:visited {
+  color: white;
+}
+
+.news > a:active {
+  color: white;
+}
+
+.news > a:hover {
+  color: orangered;
+}
+
+/* Join Us Page */
+
+.recruitment-title {
+  font-size: 40px;
+  color: orangered;
+  text-align: center;
+}
+
+.recruitment-message {
+  font-size: 35px;
+}
+
+.recruitment-image {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Recruitment-photo.jpg);
+  background-size: cover;
+}
+
+/* Animation Video */
+.Amimation-video {
+  width: 80%;
+  height: 80%;
+  border: 5px;
+}
+
+/* For later use */
+* {
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-1"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-2"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-3"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-4"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-5"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-6"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-7"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-8"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-9"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-10"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-11"] {
+  float: left;
+  padding: 15px;
+}
+
+[class*="col-12"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
