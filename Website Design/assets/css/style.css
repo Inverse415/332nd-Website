@@ -1,14 +1,12 @@
-body {
-  background-color: black;
-}
 .orange {
-  color: orangered;
+  color: #a64728;
 }
-/* h1,
+.detachment {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+h1,
 h2 {
-  margin: auto;
-  padding: 1em 2em 1em 2em;
+  color: #a64728;
 }
-nav {
-  font-size: 30px;
-} */
