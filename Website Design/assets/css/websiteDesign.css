@@ -1,24 +1,5 @@
 /*This is items that effect the entire webpage*/
 
-/* Nav bar */
-nav {
-  font-size: 30px;
-  text-align: center;
-  overflow: hidden;
-}
-
-nav a {
-  font-size: 30px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-.dropdown {
-  overflow: hidden;
-  display: inline-block;
-}
-
 .dropdown-button {
   font-size: inherit;
   color: white;
@@ -82,35 +63,34 @@ nav > a:hover {
 
 /*Background*/
 body {
-  background-color: black;
   text-decoration-color: orangered;
 }
 
 /*Text*/
 p {
-  color: white;
+  /* color: white; */
   size: 30px;
 }
 
 h1 {
-  color: white;
+  /* color: white; */
   size: 50px;
   text-align: center;
 }
 h2 {
-  color: white;
+  /* color: white; */
   size: 50px;
   text-align: center;
 }
 
 h3 {
-  color: white;
+  /* color: white; */
   size: 30px;
   text-align: center;
 }
 
 ol {
-  color: white;
+  /* color: white; */
   size: 30px;
 }
 

@@ -1,158 +1,355 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>332nd Legion</title> 
-        <meta name="description" content="Welcome to the 332nd Legion!" />
-        <meta name="Author" content="332nd Website Team" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="332nd Legion Website" />
+    <meta name="author" content="332nd Website Team" />
+    <title>332nd Legion</title>
 
-        <!-- mobile settings to help with optimization of site-->
-        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"/> 
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- CORE CSS -->
-        <link href='assets/css/websiteDesign.css' rel='stylesheet'>
-        <!-- Footer CSS -->
-        <link href='assets/css/footer.css' rel='stylesheet'>
+    <!-- Custom styles for any personal styling made -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
 
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div id="page-container">
-            <div id="content-wrap">
-                <nav> <!-- This is the web bar at the top of the page (above image)-->
-                    <div id="Header" class="dropdown">
-                        <a class="dropdown-button" href="index.html" role="button">Home</a>
-                    </div>
-                    <div id="Header" class="dropdown">
-                        <a class="dropdown-button" href="Leadership.html" role="button">Leadership</a>
-                    </div>
-                    <div id="Header" class="dropdown">
-                        <button class="dropdown-button">Detachments
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="Torrent.html">Torrent</a>
-                            <a href="Seraph.html">Seraph</a>
-                            <a href="Banshee.html">Banshee</a>
-                            <a href="Aegis.html">Aegis</a>
-                            <a href="Reaper.html">Reaper</a>
-                            <a href="Gravedigger.html">Gravedigger</a>
-                        </div>
-                    </div>
-                    <img src="assets/images/Spinny_thingy_-_Copy.png" width="70" height="70">
-                    <div id="Header" class="dropdown">
-                        <button class="dropdown-button">Operation Center
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="Campaigns.html">Campaigns</a>
-                            <a href="C-shop.html">C-Shop</a>
-                            <a href="Media.html">Media</a>
-                        </div>
-                    </div>
-                    <div id="Header" class="dropdown">
-                        <a class="dropdown-button" href="Join Us.html" role="button">How to Join</a>
-                    </div>
-                </nav>
-                    <div class="header-image-torrent"></div>
-                <br>
-                <div class="main-body">
-                    <img src="assets/images/cool.png" class="Torrent-body-image">
-                    <div class="torrent-text">
-                        <h1 class="torrent-header">Aegis Mechanized detachment</h1>
-                        <p class="torrent-description"> The Aegis detachment is the mechanized division of the 332nd. They consist of 3 groups of 3 members that run in armored vehicles. They help to support the ground forces by taking out large armored presences and large droid presence, acting as a mobile medical assistance base, and a hard-hitting group that can push ahead in situations where troopers can not push forward. They also assist Reaper by taking out anti-air guns.
-                        </p>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-                <div style="clear:both">
-                    <div class="torrent-container">
-                            <div class="torrent-cell torrent-cell-1">
-                                <p class="Torrent-positions-title"> 
-                                    Positions and Responsibilities
-                                </p>
-                                <p class="Torrent-positions">
-                                    There are a lot of positions in the Aegis detachment that you can be slotted in. The positions are listed below:
-                                </p>
-                            </div>
-                            <div class="torrent-cell torrent-cell-2">
-                                <h3 class="torrent-cell-title">Crewman</h3>
-                                <p class="torrent-cell-text">
-                                    The Crewman position is an interchangeable position within Aegis. They can be a driver,gunner,JTAC, or medic based on the mission and who all are playing. These roles are designed to allow members to flip between them and try out each area. There are 2 crewmen per vehicle, 6 total in a section.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Follow the orders of the Crew Lead (or the Section Lead in given circumstances) and communicate information.</li>
-                                    <li>Gunner: The gunner's role is to operate the brunt of the vehicle's weaponry and should only engage cleared targets through the commander's discretion unless in the most extreme scenarios.</li>
-                                    <li>Driver: The driver’s role is to move the vehicle in accordance with the commander’s guidelines, this position is also tasked with staying aware of immediate vehicle surroundings while helping with target acquisition.</li>
-                                    <li>JTAC: The driver or gunner will be tasked with monitoring LR:32 and keeping the vehicle commander informed.</li>
-                                    <li>One of the crewmen will also be the crew medic and will be responsible for maintaining the health and safety of the crew.</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-3">
-                                <h3 class="torrent-cell-title">Crew Lead (Vehicle Commander)</h3>
-                                <p class="torrent-cell-text">
-                                    Crew leads are responsible for a single-vehicle of crewmen (either Alpha, Bravo, or Charlie). The vehicle commander will be the deciding force behind where the crew moves and what it engages, they are responsible for helping the crew with threat acquisition while also monitoring the attached squad SR, and the Aegis SR/LR. They will communicate and pass information between their vehicle and the squad lead. They will also issue orders to the crewmen running with them. There is one crew lead per vehicle, 2 total on a squad. 
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Issue orders to your crew based on the orders of the section lead</li>
-                                    <li>Step up to section leader should the section lead go unconscious/die, including stepping up on the long-range radio to communicate with other ground forces</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-4">
-                                <h3 class="torrent-cell-title">Section Lead</h3>
-                                <p class="torrent-cell-text">
-                                    The section leader's (SL) job is to manage the entire section. These individuals tend to micromanage LESS and focus more on general orders to complete current tasks which allows the Crew Leaders(CLs) to be creative in completing said tasks.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Lead the section based on incoming ground information and decisions made in the planning stage with the platoon staff</li>
-                                    <li>Communicate updates over the long-range ground channel (70) to ensure your squad and others are up to date on what is happening</li>
-                                    <li>Monitor the additional Platoon LR channel for proper support cohesion.</li>
-                                    <li>Relay orders to the crew leads, who will pass this information on to their crews to complete</li>
-                                    <li>Keep an up to date roster of your section inside your section folder</li>
-                                    <li>Update the promotion board each week with any member that is due for a promotion</li>
-                                    <li>Ensuring all administrative documents (including, but not limited to this document) are kept up to date</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-7">
-                                <!-- FIXME: Add correct vehicles and stuff here -->
-                                <h2 class="torrent-cell-title">Vehicle Restrictions</h2>
-                                <p class="torrent-cell-text-2">There are restrictions on certain vehicles used by team members. These are listed below: 
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>2x Dedicated AT Troopers (Maximum of 1 PLX)</li>
-                                    <li>2x Support Troopers (Maximum of 1 15L)</li>
-                                    <li>2x Grenadier Troopers</li>
-                                    <li>2x Marksman Troopers</li>
-                                    <li>2x Medics</li>
-                                    <li>3x Squad shields (designated by the squad lead)</li>
-                                    <li>3x disposable rockets</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!-- FIXME: Replace images with Aegis images -->
-                    <div class="Pictures">
-                        <img src="assets/images/Picture4.png" class="torrent-picture-1">
-                        <img src="assets/images/Picture47.png" class="torrent-picture-2">
-                        <img src="assets/images/Picture48.png" class="torrent-picture-3">
-                        <img src="assets/images/Picture50.png" class="torrent-picture-4">
-                        <img src="assets/images/Picture53.png" class="torrent-picture-5">
-                    </div>
-                </div>
-                <div class="footer">
-                    <p class="footer-text">
-                        <p>Find Us On:</p>
-                        <!-- Added font awesome icons -->
-                        <a href="https://www.instagram.com/332ndlegion/" class="fa fa-instagram fa-footer"></a>
-                        <a href="https://twitter.com/332ndlegion" class="fa fa-twitter fa-footer"></a>
-                        <a href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA" class="fa fa-youtube fa-footer"></a>
-                    </p>
-                </div>
-            </div>
-        </div>    
-    </body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- CORE CSS -->
+    <link href="assets/css/websiteDesign.css" rel="stylesheet" />
+    <!-- Footer CSS -->
+    <link href="assets/css/footer.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+          aria-controls="collapsibleNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-center"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Leadership.html">Leadership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Detachments</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Torrent.html">Torrent</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Seraph.html">Seraph</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Banshee.html">Banshee</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Aegis.html">Aegis</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Reaper.html">Reaper</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Gravedigger.html"
+                    >Gravedigger</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <img src="assets/images/logo.png" width="105" height="70" />
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Operations Center</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Campaigns.html">Campaigns</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="C-shop.html">C-Shop</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Media.html">Media</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="projects.html"
+                    >Projects and Events</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="unitInfo.html"
+                    >Public Unit Info</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Academy</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="BasicTraining.html"
+                    >Basic Training</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="MissionBuilding.html"
+                    >Mission Building</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Zeus.html">Zeus</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="MOS.html">MOS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JoinUs.html">How to Join</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header-image-torrent"></div>
+    <br />
+    <div class="main-body">
+      <img src="assets/images/cool.png" class="Torrent-body-image" />
+      <div class="torrent-text">
+        <h1 class="torrent-header">Aegis Mechanized detachment</h1>
+        <p class="torrent-description">
+          The Aegis detachment is the mechanized division of the 332nd. They
+          consist of 3 groups of 3 members that run in armored vehicles. They
+          help to support the ground forces by taking out large armored
+          presences and large droid presence, acting as a mobile medical
+          assistance base, and a hard-hitting group that can push ahead in
+          situations where troopers can not push forward. They also assist
+          Reaper by taking out anti-air guns.
+        </p>
+        <br />
+        <br />
+      </div>
+    </div>
+    <div style="clear: both">
+      <div class="torrent-container">
+        <div class="torrent-cell torrent-cell-1">
+          <p class="Torrent-positions-title">Positions and Responsibilities</p>
+          <p class="Torrent-positions">
+            There are a lot of positions in the Aegis detachment that you can be
+            slotted in. The positions are listed below:
+          </p>
+        </div>
+        <div class="torrent-cell torrent-cell-2">
+          <h3 class="torrent-cell-title">Crewman</h3>
+          <p class="torrent-cell-text">
+            The Crewman position is an interchangeable position within Aegis.
+            They can be a driver,gunner,JTAC, or medic based on the mission and
+            who all are playing. These roles are designed to allow members to
+            flip between them and try out each area. There are 2 crewmen per
+            vehicle, 6 total in a section.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Follow the orders of the Crew Lead (or the Section Lead in given
+              circumstances) and communicate information.
+            </li>
+            <li>
+              Gunner: The gunner's role is to operate the brunt of the vehicle's
+              weaponry and should only engage cleared targets through the
+              commander's discretion unless in the most extreme scenarios.
+            </li>
+            <li>
+              Driver: The driver’s role is to move the vehicle in accordance
+              with the commander’s guidelines, this position is also tasked with
+              staying aware of immediate vehicle surroundings while helping with
+              target acquisition.
+            </li>
+            <li>
+              JTAC: The driver or gunner will be tasked with monitoring LR:32
+              and keeping the vehicle commander informed.
+            </li>
+            <li>
+              One of the crewmen will also be the crew medic and will be
+              responsible for maintaining the health and safety of the crew.
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-3">
+          <h3 class="torrent-cell-title">Crew Lead (Vehicle Commander)</h3>
+          <p class="torrent-cell-text">
+            Crew leads are responsible for a single-vehicle of crewmen (either
+            Alpha, Bravo, or Charlie). The vehicle commander will be the
+            deciding force behind where the crew moves and what it engages, they
+            are responsible for helping the crew with threat acquisition while
+            also monitoring the attached squad SR, and the Aegis SR/LR. They
+            will communicate and pass information between their vehicle and the
+            squad lead. They will also issue orders to the crewmen running with
+            them. There is one crew lead per vehicle, 2 total on a squad.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Issue orders to your crew based on the orders of the section lead
+            </li>
+            <li>
+              Step up to section leader should the section lead go
+              unconscious/die, including stepping up on the long-range radio to
+              communicate with other ground forces
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-4">
+          <h3 class="torrent-cell-title">Section Lead</h3>
+          <p class="torrent-cell-text">
+            The section leader's (SL) job is to manage the entire section. These
+            individuals tend to micromanage LESS and focus more on general
+            orders to complete current tasks which allows the Crew Leaders(CLs)
+            to be creative in completing said tasks.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Lead the section based on incoming ground information and
+              decisions made in the planning stage with the platoon staff
+            </li>
+            <li>
+              Communicate updates over the long-range ground channel (70) to
+              ensure your squad and others are up to date on what is happening
+            </li>
+            <li>
+              Monitor the additional Platoon LR channel for proper support
+              cohesion.
+            </li>
+            <li>
+              Relay orders to the crew leads, who will pass this information on
+              to their crews to complete
+            </li>
+            <li>
+              Keep an up to date roster of your section inside your section
+              folder
+            </li>
+            <li>
+              Update the promotion board each week with any member that is due
+              for a promotion
+            </li>
+            <li>
+              Ensuring all administrative documents (including, but not limited
+              to this document) are kept up to date
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-7">
+          <!-- FIXME: Add correct vehicles and stuff here -->
+          <h2 class="torrent-cell-title">Vehicle Restrictions</h2>
+          <p class="torrent-cell-text-2">
+            There are restrictions on certain vehicles used by team members.
+            These are listed below:
+          </p>
+          <ol class="torrent-cell-text">
+            <li>2x Dedicated AT Troopers (Maximum of 1 PLX)</li>
+            <li>2x Support Troopers (Maximum of 1 15L)</li>
+            <li>2x Grenadier Troopers</li>
+            <li>2x Marksman Troopers</li>
+            <li>2x Medics</li>
+            <li>3x Squad shields (designated by the squad lead)</li>
+            <li>3x disposable rockets</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-- FIXME: Replace images with Aegis images -->
+      <div class="Pictures">
+        <img src="assets/images/Picture4.png" class="torrent-picture-1" />
+        <img src="assets/images/Picture47.png" class="torrent-picture-2" />
+        <img src="assets/images/Picture48.png" class="torrent-picture-3" />
+        <img src="assets/images/Picture50.png" class="torrent-picture-4" />
+        <img src="assets/images/Picture53.png" class="torrent-picture-5" />
+      </div>
+    </div>
+    <!-- Grid container -->
+    <footer class="mt-auto bg-dark text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com/332ndlegion"
+            role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.instagram.com/332ndlegion/"
+            role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <!-- Discord -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://discord.com/invite/PMNEbfvMx4"
+            role="button"
+            ><i class="bi bi-discord"></i
+          ></a>
+
+          <!-- Youtube -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA"
+            role="button"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </section>
+      </div>
+      <!-- Grid container -->
+
+      <div
+        class="text-center p-3 text-white"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        332nd Legion
+      </div>
+    </footer>
+  </body>
 </html>

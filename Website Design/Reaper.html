@@ -1,159 +1,346 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>332nd Legion</title> 
-        <meta name="description" content="Welcome to the 332nd Legion!" />
-        <meta name="Author" content="332nd Website Team" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="332nd Legion Website" />
+    <meta name="author" content="332nd Website Team" />
+    <title>332nd Legion</title>
 
-        <!-- mobile settings to help with optimization of site-->
-        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0"/> 
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-        <!-- CORE CSS -->
-        <link href='assets/css/websiteDesign.css' rel='stylesheet'>
-        <!-- Footer CSS -->
-        <link href='assets/css/footer.css' rel='stylesheet'>
+    <!-- Custom styles for any personal styling made -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
 
-        <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div id="page-container">
-            <div id="content-wrap">
-                <nav> <!-- This is the web bar at the top of the page (above image)-->
-                    <div id="Header" class="dropdown">
-                        <a class="dropdown-button" href="index.html" role="button">Home</a>
-                    </div>
-                    <div id="Header" class="dropdown">
-                        <a class="dropdown-button" href="Leadership.html" role="button">Leadership</a>
-                    </div>
-                    <div id="Header" class="dropdown">
-                        <button class="dropdown-button">Detachments
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="Torrent.html">Torrent</a>
-                            <a href="Seraph.html">Seraph</a>
-                            <a href="Banshee.html">Banshee</a>
-                            <a href="Aegis.html">Aegis</a>
-                            <a href="Reaper.html">Reaper</a>
-                            <a href="Gravedigger.html">Gravedigger</a>
-                        </div>
-                    </div>
-                    <img src="assets/images/Spinny_thingy_-_Copy.png" width="70" height="70">
-                    <div id="Header" class="dropdown">
-                        <button class="dropdown-button">Operation Center
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="Campaigns.html">Campaigns</a>
-                            <a href="C-shop.html">C-Shop</a>
-                            <a href="Media.html">Media</a>
-                        </div>
-                    </div>
-                    <div id="Header" class="dropdown">
-                        <a class="dropdown-button" href="Join Us.html" role="button">How to Join</a>
-                    </div>
-                </nav>
-                    <div class="header-image-torrent"></div>
-                <br>
-                <div class="main-body">
-                    <img src="assets/images/cool.png" class="Torrent-body-image">
-                    <div class="torrent-text">
-                        <h1 class="torrent-header">Reaper Aviation Detachment</h1>
-                        <p class="torrent-description"> The Reaper Forces are the aviation portion of our legion. They take care of vultures and other air-related enemies. They also provide the ground forces with support via transportation, resupply, and CAS strikes.
-                        </p>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-                <div style="clear:both">
-                    <div class="torrent-container">
-                            <div class="torrent-cell torrent-cell-1">
-                                <p class="Torrent-positions-title"> 
-                                    Positions and Responsibilities
-                                </p>
-                                <p class="Torrent-positions">
-                                    There are a lot of positions in the Reaper forces that you can be slotted in. The positions are listed below:
-                                </p>
-                            </div>
-                            <div class="torrent-cell torrent-cell-2">
-                                <h3 class="torrent-cell-title">Aviator</h3>
-                                <p class="torrent-cell-text">
-                                    These are the general pilots. Their primary goal is to follow the orders of the team lead to accomplish each mission objective and cover the ground forces. There are 6 pilots per flight commander, including the section lead.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Follow the orders of the Team Lead (or the Squad Lead in given circumstances) and communicate information via your team radio (Not squad radio).</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-3">
-                                <h3 class="torrent-cell-title">Section Leader</h3>
-                                <p class="torrent-cell-text">
-                                    The role of a Section Lead is to make sure their section is trained and prepared to take on any aviation task. Section leaders also need to be prepared to run as FAC in times when a flight commander is not present.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Step up to FAC should FAC go down, including stepping up on the long-range air radio (32) to communicate with ground forces.</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-4">
-                                <h3 class="torrent-cell-title">Flight Commander</h3>
-                                <p class="torrent-cell-text">
-                                    The role of a Flight Commander is to ensure that their sections are getting trained and to lead the flight during main operations.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Lead Reaper based on incoming information and decisions made in the planning stage with the platoon staff</li>
-                                    <li>Communicate updates over the long-range air channel (32) to ensure your squad and others are up to date on what is happening</li>
-                                    <li>Relay orders to pilots to complete</li>
-                                    <li>Keep an up to date roster of your squad inside your squad folder</li>
-                                    <li>Update the promotion board each week with any member that is due for a promotion</li>
-                                    <li>Ensuring all administrative documents (including, but not limited to this document) are kept up to date</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-5">
-                                <h3 class="torrent-cell-title">Squadron Sub-Commander:</h3>
-                                <!-- FIXME: add role and responsibilities -->
-                                <p class="torrent-cell-text"> 
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem deserunt nisi ducimus, ipsa fugiat laudantium sapiente soluta dignissimos optio maiores at ab. Pariatur eligendi culpa tenetur quibusdam nemo dignissimos. Inventore.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est in aperiam excepturi vel tenetur expedita, obcaecati eos? Consequatur numquam quaerat voluptatum at eligendi consequuntur distinctio, est molestias odio laborum.</li>
-                                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis optio eligendi facere iure quasi, rerum veritatis eum reiciendis quia quam saepe, voluptas architecto pariatur provident quos suscipit enim minus consectetur.</li>
-                                </ol>
-                            </div>
-                            <div class="torrent-cell torrent-cell-6">
-                                <h3 class="torrent-cell-title">Squadron Commander:</h3>
-                                <!-- FIXME: add role and responsibilities -->
-                                <p class="torrent-cell-text">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque eligendi, autem adipisci atque molestiae unde quidem consequatur est porro exercitationem accusantium dolore, in, iste rem excepturi fugiat eveniet voluptatibus aliquid.
-                                </p>
-                                <ol class="torrent-cell-text">
-                                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad fugit commodi nihil quo illo sequi similique excepturi, nostrum voluptatibus asperiores laboriosam eligendi ullam harum voluptas, ipsa perferendis perspiciatis unde nemo.</li>
-                                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi dolore fugit cumque, maiores in maxime voluptatum doloribus tempora architecto! Quod, repellendus itaque. In sed adipisci aut sequi. Reprehenderit, ullam.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!-- FIXME: Replace images with Reaper images -->
-                    <div class="Pictures">
-                        <img src="assets/images/Picture4.png" class="torrent-picture-1">
-                        <img src="assets/images/Picture47.png" class="torrent-picture-2">
-                        <img src="assets/images/Picture48.png" class="torrent-picture-3">
-                        <img src="assets/images/Picture50.png" class="torrent-picture-4">
-                        <img src="assets/images/Picture53.png" class="torrent-picture-5">
-                    </div>
-                </div>
-                <div class="footer">
-                    <p class="footer-text">
-                        <p>Find Us On:</p>
-                        <!-- Added font awesome icons -->
-                        <a href="https://www.instagram.com/332ndlegion/" class="fa fa-instagram fa-footer"></a>
-                        <a href="https://twitter.com/332ndlegion" class="fa fa-twitter fa-footer"></a>
-                        <a href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA" class="fa fa-youtube fa-footer"></a>
-                    </p>
-                </div>
-            </div>
-        </div>    
-    </body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- CORE CSS -->
+    <link href="assets/css/websiteDesign.css" rel="stylesheet" />
+    <!-- Footer CSS -->
+    <link href="assets/css/footer.css" rel="stylesheet" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+          aria-controls="collapsibleNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-md-center"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Leadership.html">Leadership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Detachments</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Torrent.html">Torrent</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Seraph.html">Seraph</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Banshee.html">Banshee</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Aegis.html">Aegis</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Reaper.html">Reaper</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Gravedigger.html"
+                    >Gravedigger</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <img src="assets/images/logo.png" width="105" height="70" />
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Operations Center</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Campaigns.html">Campaigns</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="C-shop.html">C-Shop</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Media.html">Media</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="projects.html"
+                    >Projects and Events</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="unitInfo.html"
+                    >Public Unit Info</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Academy</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="BasicTraining.html"
+                    >Basic Training</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="MissionBuilding.html"
+                    >Mission Building</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Zeus.html">Zeus</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="MOS.html">MOS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="JoinUs.html">How to Join</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header-image-torrent"></div>
+    <br />
+    <div class="main-body">
+      <img src="assets/images/cool.png" class="Torrent-body-image" />
+      <div class="torrent-text">
+        <h1 class="torrent-header">Reaper Aviation Detachment</h1>
+        <p class="torrent-description">
+          The Reaper Forces are the aviation portion of our legion. They take
+          care of vultures and other air-related enemies. They also provide the
+          ground forces with support via transportation, resupply, and CAS
+          strikes.
+        </p>
+        <br />
+        <br />
+      </div>
+    </div>
+    <div style="clear: both">
+      <div class="torrent-container">
+        <div class="torrent-cell torrent-cell-1">
+          <p class="Torrent-positions-title">Positions and Responsibilities</p>
+          <p class="Torrent-positions">
+            There are a lot of positions in the Reaper forces that you can be
+            slotted in. The positions are listed below:
+          </p>
+        </div>
+        <div class="torrent-cell torrent-cell-2">
+          <h3 class="torrent-cell-title">Aviator</h3>
+          <p class="torrent-cell-text">
+            These are the general pilots. Their primary goal is to follow the
+            orders of the team lead to accomplish each mission objective and
+            cover the ground forces. There are 6 pilots per flight commander,
+            including the section lead.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Follow the orders of the Team Lead (or the Squad Lead in given
+              circumstances) and communicate information via your team radio
+              (Not squad radio).
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-3">
+          <h3 class="torrent-cell-title">Section Leader</h3>
+          <p class="torrent-cell-text">
+            The role of a Section Lead is to make sure their section is trained
+            and prepared to take on any aviation task. Section leaders also need
+            to be prepared to run as FAC in times when a flight commander is not
+            present.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Step up to FAC should FAC go down, including stepping up on the
+              long-range air radio (32) to communicate with ground forces.
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-4">
+          <h3 class="torrent-cell-title">Flight Commander</h3>
+          <p class="torrent-cell-text">
+            The role of a Flight Commander is to ensure that their sections are
+            getting trained and to lead the flight during main operations.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Lead Reaper based on incoming information and decisions made in
+              the planning stage with the platoon staff
+            </li>
+            <li>
+              Communicate updates over the long-range air channel (32) to ensure
+              your squad and others are up to date on what is happening
+            </li>
+            <li>Relay orders to pilots to complete</li>
+            <li>
+              Keep an up to date roster of your squad inside your squad folder
+            </li>
+            <li>
+              Update the promotion board each week with any member that is due
+              for a promotion
+            </li>
+            <li>
+              Ensuring all administrative documents (including, but not limited
+              to this document) are kept up to date
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-5">
+          <h3 class="torrent-cell-title">Squadron Sub-Commander:</h3>
+          <!-- FIXME: add role and responsibilities -->
+          <p class="torrent-cell-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
+            deserunt nisi ducimus, ipsa fugiat laudantium sapiente soluta
+            dignissimos optio maiores at ab. Pariatur eligendi culpa tenetur
+            quibusdam nemo dignissimos. Inventore.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem est in aperiam excepturi vel tenetur expedita,
+              obcaecati eos? Consequatur numquam quaerat voluptatum at eligendi
+              consequuntur distinctio, est molestias odio laborum.
+            </li>
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              optio eligendi facere iure quasi, rerum veritatis eum reiciendis
+              quia quam saepe, voluptas architecto pariatur provident quos
+              suscipit enim minus consectetur.
+            </li>
+          </ol>
+        </div>
+        <div class="torrent-cell torrent-cell-6">
+          <h3 class="torrent-cell-title">Squadron Commander:</h3>
+          <!-- FIXME: add role and responsibilities -->
+          <p class="torrent-cell-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+            eligendi, autem adipisci atque molestiae unde quidem consequatur est
+            porro exercitationem accusantium dolore, in, iste rem excepturi
+            fugiat eveniet voluptatibus aliquid.
+          </p>
+          <ol class="torrent-cell-text">
+            <li>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad fugit
+              commodi nihil quo illo sequi similique excepturi, nostrum
+              voluptatibus asperiores laboriosam eligendi ullam harum voluptas,
+              ipsa perferendis perspiciatis unde nemo.
+            </li>
+            <li>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              modi dolore fugit cumque, maiores in maxime voluptatum doloribus
+              tempora architecto! Quod, repellendus itaque. In sed adipisci aut
+              sequi. Reprehenderit, ullam.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div>
+      <!-- FIXME: Replace images with Reaper images -->
+      <div class="Pictures">
+        <img src="assets/images/Picture4.png" class="torrent-picture-1" />
+        <img src="assets/images/Picture47.png" class="torrent-picture-2" />
+        <img src="assets/images/Picture48.png" class="torrent-picture-3" />
+        <img src="assets/images/Picture50.png" class="torrent-picture-4" />
+        <img src="assets/images/Picture53.png" class="torrent-picture-5" />
+      </div>
+    </div>
+    <!-- Grid container -->
+    <footer class="mt-auto bg-dark text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://twitter.com/332ndlegion"
+            role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.instagram.com/332ndlegion/"
+            role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <!-- Discord -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://discord.com/invite/PMNEbfvMx4"
+            role="button"
+            ><i class="bi bi-discord"></i
+          ></a>
+
+          <!-- Youtube -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.youtube.com/channel/UC-UZ_I5ukHsoCbORnFVo-QA"
+            role="button"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </section>
+      </div>
+      <!-- Grid container -->
+
+      <div
+        class="text-center p-3 text-white"
+        style="background-color: rgba(0, 0, 0, 0.2)"
+      >
+        332nd Legion
+      </div>
+    </footer>
+  </body>
 </html>
