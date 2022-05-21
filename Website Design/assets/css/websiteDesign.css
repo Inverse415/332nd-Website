@@ -233,9 +233,9 @@ p > a:hover {
   display: inline-block;
   position: relative;
   min-width: 500px;
-  max-width: 45%;
+  max-width: 70%;
   min-height: 350px;
-  max-height: 45%;
+  max-height: 70%;
   padding: 2%;
 }
 
