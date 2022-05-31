@@ -557,7 +557,13 @@ img:nth-child(6) {
 }
 
 
-
+/* Banshee */
+.header-image-banshee {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/Banshee-Header.PNG);
+  background-size: cover;
+}
 
 
 
