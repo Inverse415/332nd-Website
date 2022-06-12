@@ -38,15 +38,15 @@
 }
 
 nav > a:link {
-  color: white;
+  color: orangered;
 }
 
 nav > a:visited {
-  color: white;
+  color: orangered;
 }
 
 nav > a:active {
-  color: white;
+  color: orangered;
 }
 
 nav > a:hover {
@@ -122,35 +122,35 @@ ol {
 }
 
 ul > a:link {
-  color: white;
+  color: orangered;
 }
 
 ul > a:visited {
-  color: white;
+  color: orangered;
 }
 
 ul > a:active {
-  color: white;
+  color: orangered;
 }
 
 ul > a:hover {
-  color: white;
+  color: orangered;
 }
 
 p > a:link {
-  color: white;
+  color: orangered;
 }
 
 p > a:visited {
-  color: white;
+  color: orangered;
 }
 
 p > a:active {
-  color: white;
+  color: orangered;
 }
 
 p > a:hover {
-  color: white;
+  color: orangered;
 }
 
 /* This is the Main page of the website */
@@ -499,15 +499,15 @@ img:nth-child(6) {
 }
 
 .media-text > a:link {
-  color: white;
+  color: orangered;
 }
 
 .media-text > a:visited {
-  color: white;
+  color: orangered;
 }
 
 .media-text > a:active {
-  color: white;
+  color: orangered;
 }
 
 .media-text > a:hover {
@@ -515,15 +515,15 @@ img:nth-child(6) {
 }
 
 .news > a:link {
-  color: white;
+  color: orangered;
 }
 
 .news > a:visited {
-  color: white;
+  color: orangered;
 }
 
 .news > a:active {
-  color: white;
+  color: orangered;
 }
 
 .news > a:hover {
