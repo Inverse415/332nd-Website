@@ -18,136 +18,96 @@
     <!-- Custom styles for any personal styling made -->
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/websiteDesign.css" rel="stylesheet" />
+    <link href="./assets/css/Navigation.css" rel="stylesheet" />
 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
     />
   </head>
-  <body class="d-flex flex-column min-vh-100">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapsibleNavbar"
-          aria-controls="collapsibleNavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-md-center"
-          id="collapsibleNavbar"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+
+  <header>
+    <h1 class="logo"><img src="assets/images/logo.png" width="105" height="70" /></h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="Leadership.html">Leadership</a>
+        </li>
+        <li>
+          <a href="#">Detachments</a>
+          <ul>
+            <li>
+              <a href="Torrent.html">Torrent</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Leadership.html">Leadership</a>
+            <li>
+              <a href="Seraph.html">Seraph</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                >Detachments</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="Torrent.html">Torrent</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Seraph.html">Seraph</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Banshee.html">Banshee</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Aegis.html">Aegis</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Reaper.html">Reaper</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Gravedigger.html"
-                    >Gravedigger</a
-                  >
-                </li>
-              </ul>
+            <li>
+              <a href="Banshee.html">Banshee</a>
             </li>
-            <img src="assets/images/logo.png" width="105" height="70" />
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                >Operations Center</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="Campaigns.html">Campaigns</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="C-shop.html">C-Shop</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Media.html">Media</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="projects.html"
-                    >Projects and Events</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="unitInfo.html"
-                    >Public Unit Info</a
-                  >
-                </li>
-              </ul>
+            <li>
+              <a href="Aegis.html">Aegis</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                >Academy</a
-              >
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="BasicTraining.html"
-                    >Basic Training</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="MissionBuilding.html"
-                    >Mission Building</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="Zeus.html">Zeus</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="MOS.html">MOS</a>
-                </li>
-              </ul>
+            <li>
+              <a  href="Reaper.html">Reaper</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="JoinUs.html">How to Join</a>
+            <li>
+              <a href="Gravedigger.html">Gravedigger</a>
             </li>
           </ul>
-        </div>
-      </div>
+        </li>
+        <li>
+          <a href="#">Operations Center</a>
+          <ul>
+            <li>
+              <a href="Campaigns.html">Campaigns</a>
+            </li>
+            <li>
+              <a href="C-shop.html">C-Shop</a>
+            </li>
+            <li>
+              <a href="Media.html">Media</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects and Events</a>
+            </li>
+            <li>
+              <a href="unitInfo.html">Public Unit Info</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Academy</a>
+          <ul>
+            <li>
+              <a href="BasicTraining.html">Basic Training</a>
+            </li>
+            <li>
+              <a href="MissionBuilding.html">Mission Building</a>
+            </li>
+            <li>
+              <a href="Zeus.html">Zeus</a>
+            </li>
+            <li>
+              <a href="MOS.html">MOS</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="JoinUs.html">How to Join</a>
+        </li>
+      </ul>
     </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
 
-    <br />
+     <br />
 
     <!-- Header Image -->
     <div class="container">
@@ -168,9 +128,9 @@
         those looking for an authentic Star Wars experience. We as a community
         aim to provide a welcoming atmosphere in which you can make new friends
         and welcome old ones, and most importantly have fun and shoot clankers.
-        The 332nd hopes offer a fun, yet semi-serious environment. We currently
+        The 332nd hopes to offer a fun, yet semi-serious environment. We currently
         have our own aux team making new updates regularly with new textured
-        armor and vehicles keeping the gameplay refreshing. Our goal is to allow
+        armor and vehicles keeping the gameplay new and refreshing. Our goal is to allow
         anyone to pursue any particular role they want to their fullest; whether
         that be a regular trooper who can advance through the specialist ranks
         or a pilot fighting for air superiority, as well as much more! The
