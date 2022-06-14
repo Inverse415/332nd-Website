@@ -94,28 +94,6 @@ ol {
   size: 30px;
 }
 
-/*Footer */
-.footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  opacity: 90%;
-  position: relative;
-  text-align: center;
-  margin-top: auto;
-  background-color: gray;
-  float: left;
-  clear: both;
-  display: block;
-}
-
-.footer-text {
-  font-size: 15px;
-  width: 96%;
-  margin-right: 2%;
-  text-align: center;
-}
-
 #page-container {
   position: relative;
   min-height: 100vh;
@@ -212,6 +190,16 @@ p > a:hover {
   clear: both;
   display: table;
 }
+
+/*This is the Remake of the Detachments click part*/
+
+
+
+
+
+
+
+
 
 /*This is the Torrent Page of the Website */
 .header-image-torrent {

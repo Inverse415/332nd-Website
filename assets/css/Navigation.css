@@ -1,5 +1,5 @@
 :root {
-    --background: rgba(196, 102, 40, 0.95);
+    --background: rgba(196, 102, 40, 1);
 }
 
 *, *::before, *::after {
@@ -79,16 +79,23 @@ nav ul {
     padding: 0;
     list-style: none;
     display: inline;
+    background: var(--background);
 }
 
 nav li {
     margin-bottom: 1em;
     margin-left: 1em;
     display: inline-block;
+    background: var(--background);
 }
 
-ul li:hover {background: var(--background)}
-ul li:hover ul {display: block;}
+ul li:hover {
+    background: var(--background)
+}
+
+ul li:hover ul {
+    display: block;
+}
 
 ul li ul {
     position: absolute;
@@ -99,9 +106,13 @@ ul li ul {
 ul li ul li { 
     background: var(--background); 
     display: block; 
+    text-align: left;
+    margin-left: 0.5em;
 }
   
-ul li ul li a {display:block !important;} 
+ul li ul li a {
+    display:block !important;
+} 
 
 nav a {
     color: black;
@@ -115,39 +126,8 @@ nav a:hover {
     color: white;
 }
 
-/*Dropdown Menus and Sub-menus*/
-.sub-menu {
-    float: left;
-    overflow: hidden;
-    display: block;
-}
-
-.sub-menu-item {
-    display: block;
-    position: relative;
-    overflow: inherit;
-}
-
-.sub-menu-item:hover {
-    display: unset;
-    display: block;
-    position: relative;
-    overflow: inherit;
-}
-
-.sub-menu-item a {
-    color: black;
-    text-decoration: none;
-}
-  
-.sub-menu-item:hover {
-    display: block;
-    position: absolute;
-}
-
-
 /*Large Screen View*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1100px) {
     .nav-toggle-label {
         display: none;
     }
